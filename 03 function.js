@@ -9,8 +9,15 @@ printChar('b')
 
 
 //익명함수 : 함수의 이름이 없는 함수
-익명함수 = function(문자){
+// 익명함수 = function(문자){
+//     console.log('익명함수' + 문자)
+// }
+
+
+//arrow function : 익명함수 코드를 간소화
+익명함수 = (문자) => {
     console.log('익명함수' + 문자)
 }
 
 익명함수('c')
+ 
