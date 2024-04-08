@@ -9,6 +9,11 @@ app.use(middle1)
 
 app.get('/', (req, res)=> {
     res.send('Hello World')
+    next()
+})
+
+app.get('/', (req, res) => {
+    console.log('swag')
 })
 
 
